@@ -1,0 +1,34 @@
+{
+  "name": "@kugatsu/vue3-toast",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Toast notification for vue3",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "tailwindcss": "^2.0.0",
+    "vue": "^3.0.0",
+    "@fortawesome/vue-fontawesome": "^3.0.0-3"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue3",
+    "vuejs3",
+    "notification",
+    "toastr",
+    "toast",
+    "plugin",
+    "kugatsu",
+    "tailwindcss",
+    "fortawesome"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/kugatsu765/vue3-toast",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}
