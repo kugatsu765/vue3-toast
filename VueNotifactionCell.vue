@@ -4,9 +4,7 @@
     :class="[background, 'notif-' + notification.id]"
   >
     <div class="flex flex-row items-center space-x-4">
-      <slot name="icon" :notif="notification">
-        <Icn :icon="notification.icon" v-if="notification.icon" />
-      </slot>
+      <Icn :icon="notification.icon" v-if="notification.icon" />
       <div class="flex flex-col">
         <div class="font-bold">{{ notification?.title ?? "" }}</div>
         <div class="text-sm">{{ notification?.content ?? "" }}</div>
@@ -32,7 +30,7 @@ export default {
   },
   computed: {
     background() {
-      let color = this.notification?.bg ?? "bg-primary";
+      let color = this.notification?.bg ?? "bg-blue-500";
       return `${color}`;
     },
   },

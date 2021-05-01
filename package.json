@@ -26,6 +26,8 @@
   "license": "MIT",
   "main": "index.js",
   "repository": "https://github.com/kugatsu765/vue3-toast",
+  "author": "Romain Gabel <romain.gabel@icloud.com>",
+  "homepage": "https://github.com/kugatsu765/vue3-toast",
   "postcss": {
     "plugins": {
       "autoprefixer": {}
