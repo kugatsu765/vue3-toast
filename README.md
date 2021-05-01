@@ -1,13 +1,13 @@
 # Vue3 toast
 
-> This plugins is compatible with  [tailwindcss 2]("https://tailwindcss.com/") et [fontawesome](https://fontawesome.com/) (exept for custom notification cell)
+> This plugins is compatible and build with [tailwindcss2]("https://tailwindcss.com/") et [fontawesome](https://fontawesome.com/) (exept for custom notification cell)
 
 ## Add it to your project
 
 Install it with yarn or NPM
 
 ```shell
-yarn add @kugatsu/vue-toast
+yarn add @kugatsu/vue3-toast
 ```
 
 ## How to use
