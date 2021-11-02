@@ -1,5 +1,5 @@
-import VueNotificationContainer from "./VueNotificationContainer";
-import { apiNotification, conf } from "./notifications";
+import VueNotificationContainer from "./VueNotificationContainer.vue";
+import { apiNotification, conf } from "./notifications.js";
 
 let installed = false;
 
@@ -12,5 +12,5 @@ export default {
     Vue.config.globalProperties.$toast = apiNotification;
     Vue.provide("toast", apiNotification);
     installed = true;
-  }
+  },
 };

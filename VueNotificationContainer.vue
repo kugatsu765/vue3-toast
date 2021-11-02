@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import VueNotifactionCell from "./VueNotifactionCell";
-import TansitionGroupFade from "./TansitionGroupFade";
+import VueNotifactionCell from "./VueNotifactionCell.vue";
+import TansitionGroupFade from "./TansitionGroupFade.vue";
 import { state, conf } from "./notifications.js";
 
 export default {
